@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.deepika{
+    color:orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+a{
+    border: 1px solid black;
+    text-decoration: none;
+   background-image: linear-gradient(orange, rgb(230, 91, 91));
+    color:white;
+    font-size: 15px;
+    padding: 10px 40px;
+    font-weight: 700px;
+    border-radius: 5px;
+
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
