@@ -66,3 +66,6 @@ a{
     border-image: linear-gradient(rgb(11, 219, 91), rgb(126, 209, 18));
     border-image-slice: 1;
 }
+footer p{
+    text-align: center;
+}
