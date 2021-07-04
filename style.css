@@ -8,9 +8,9 @@ h1{
 .deepika{
     color:orange;
 }
-section{
+.flexiable-container{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .half-width{
     width: 50%;
@@ -24,7 +24,7 @@ a{
     text-decoration: none;
    background-image: linear-gradient(orange, rgb(230, 91, 91));
     color:white;
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px 40px;
     font-weight: 700px;
     border-radius: 5px;
@@ -38,4 +38,31 @@ a{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+.single{
+    padding-left: 10px;
+}
+.half-width-2{
+    width: 40%;
+    border-radius: 7px;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+}
+#web-dev-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(11, 219, 91), rgb(126, 209, 18));
+    border-image-slice: 1;
 }
